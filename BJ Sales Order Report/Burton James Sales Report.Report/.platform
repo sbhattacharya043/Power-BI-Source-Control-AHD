@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Burton James Sales Report"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "397d399c-d3e1-4398-9157-b0addce9e9ad"
+  }
+}
