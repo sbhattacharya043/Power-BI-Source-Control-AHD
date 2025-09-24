@@ -1,0 +1,98 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 60.837168205328709,
+            "y": 150.92592592592587
+          },
+          "nodeIndex": "Dates",
+          "nodeLineageTag": "e917c5e1-0ca9-4c60-98ff-72127a8ef721",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 66.980462602344687,
+            "y": 554.93843398594129
+          },
+          "nodeIndex": "RefreshDate",
+          "nodeLineageTag": "e58d14d5-48a5-413d-a808-1c4984e64a52",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 585.20502279207778,
+            "y": 74.999999999999943
+          },
+          "nodeIndex": "VW_BJ_ORDERS",
+          "nodeLineageTag": "0e16038c-bba5-4c35-a775-21fd05de5155",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 808.3678545867491,
+            "y": 292.74699477074842
+          },
+          "nodeIndex": "Burton James Orders",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1031.5306863814205,
+            "y": 329.63588365963733
+          },
+          "nodeIndex": "Report Timeline",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 518.89104904028954,
+            "y": 575.46304415346447
+          },
+          "nodeIndex": "VW_ORDERS",
+          "nodeLineageTag": "3e810b98-ef99-440c-83a1-726aed4c3faf",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 81,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

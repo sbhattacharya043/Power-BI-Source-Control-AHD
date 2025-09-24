@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Burton James Sales Dataset Copy"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "6637bf4e-abd1-4a73-a3a9-87158cd695d6"
+  }
+}
