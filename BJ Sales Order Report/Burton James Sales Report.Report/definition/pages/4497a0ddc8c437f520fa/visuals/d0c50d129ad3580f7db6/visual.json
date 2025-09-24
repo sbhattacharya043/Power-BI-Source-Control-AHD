@@ -250,5 +250,51 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "e72fd79cdb082e1e4936",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VW_BJ_ORDERS"
+              }
+            },
+            "Property": "MTD Sales"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "77e4664ae56945e255fb",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VW_BJ_ORDERS"
+              }
+            },
+            "Property": "LYMTD Sales"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "3c2dbaf1332df891f5b6",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VW_BJ_ORDERS"
+              }
+            },
+            "Property": "%Change_MTD_Sales"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
   }
 }

@@ -57,8 +57,8 @@
                 }
               },
               "queryRef": "VW_BJ_ORDERS.Same Week LY (Sales)",
-              "nativeQueryRef": "LY Sales",
-              "displayName": "LY Sales"
+              "nativeQueryRef": "LY Sales test",
+              "displayName": "LY Sales test"
             },
             {
               "field": {
@@ -77,6 +77,23 @@
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "VW_BJ_ORDERS"
+                  }
+                },
+                "Property": "Same Week LY (Sales)"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
       }
     },
     "objects": {
@@ -240,5 +257,65 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "26a236c87731d040ad72",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Dates"
+              }
+            },
+            "Property": "DAY_OF_WEEK_NAME"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "259e4d670b8e13974ffd",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VW_BJ_ORDERS"
+              }
+            },
+            "Property": "Current Week (sales)"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "e636d3630cd9c47d5baf",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VW_BJ_ORDERS"
+              }
+            },
+            "Property": "Same Week LY (Sales)"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "ee19aed20f097ae8a9d1",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VW_BJ_ORDERS"
+              }
+            },
+            "Property": "%Change_CurrentWeek_Sales"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
   }
 }
