@@ -17936,7 +17936,9 @@
                 },
                 "State": "Generated",
                 "Terms": [
-                  {},
+                  {
+                    "": {}
+                  },
                   {
                     "location": {
                       "Source": {
@@ -32562,6 +32564,17 @@
             ],
             "formatString": "\\$#,0;(\\$#,0);\\$#,0",
             "lineageTag": "3559e733-4083-4d94-b752-20adea941517"
+          },
+          {
+            "name": "SUM_DISC",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "sum(VW_BJ_ORDERS[DISCOUNT_AMOUNT])",
+            "lineageTag": "60190615-fa46-4253-86e8-61526c1b5ee4"
           }
         ],
         "partitions": [
